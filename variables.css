@@ -1,0 +1,9 @@
+:root {
+  --color-primary: #324739;
+  --color-primary-light: #f0f1f0;
+  --base-text-size: 14px;
+  --base-border-radius: 12px;
+  --secondary-border-radius: 8px;
+  --accent-text-size: 18px;
+  --title-text-size: 24px;
+}

@@ -1,0 +1,100 @@
+.resume-body {
+  display: grid;
+  grid-template-columns: calc(70% - 6px) calc(30% - 6px);
+  padding-top: 16px;
+  border-top: 1px solid var(--color-primary);
+  column-gap: 12px;
+}
+
+.resume-body__title {
+  grid-column: 1 / 2;
+  font-size: var(--title-text-size);
+  line-height: 120%;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.resume-body__features {
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.resume-body__company-period {
+  margin-bottom: 8px;
+  font-style: italic;
+  font-size: var(--base-text-size);
+}
+
+.resume-body__company-title {
+  background-color: var(--color-primary);
+  display: inline-block;
+  padding: 4px 8px;
+  color: var(--color-primary-light);
+  margin-bottom: 6px;
+}
+
+.resume-body__company-responsibility {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.resume-body__company-list li {
+  padding-left: 8px;
+  margin-bottom: 12px;
+  font-size: var(--base-text-size);
+}
+
+.resume-body__company-list li:before {
+  content: '- ';
+}
+
+.resume-body__company-list li:after {
+  content: ';';
+}
+
+.resume-body__company-list li:last-child:after {
+  content: '.';
+}
+
+.resume-body__company-list li:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.resume-body__feature {
+  font-size: var(--title-text-size);
+  background-color: var(--color-primary-light);
+  padding: 12px;
+  border-radius: var(--base-border-radius);
+}
+
+.resume-body__feature-title {
+  font-size: var(--title-text-size);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.resume-body__feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.resume-body__feature-list-item {
+  background-color: var(--color-primary);
+  padding: 4px 8px;
+  border-radius: var(--secondary-border-radius);
+  font-size: var(--base-text-size);
+  color: var(--color-primary-light);
+}
+
+.resume-body__history {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  grid-column: 1 / 2;
+}

@@ -1,0 +1,79 @@
+body {
+  width: 230mm;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 120%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.resume {
+  width: 230mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background: white;
+  padding: 18px;
+}
+
+.resume-header {
+  display: grid;
+  grid-template-columns: calc(25% - 12px) calc(75% - 12px);
+  grid-template-rows: auto;
+  gap: 24px;
+  padding-bottom: 16px;
+}
+
+.resume-header__avatar {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+  border-radius: var(--base-border-radius);
+}
+
+.resume-header__list-item {
+  color: var(--color-primary);
+  font-size: var(--base-text-size);
+}
+
+.resume-header__list-item.occupation {
+  font-size: var(--accent-text-size);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.resume-header__list-item.birth {
+  font-size: var(--accent-text-size);
+  font-weight: 700;
+  margin: 8px 0 4px 0;
+}
+
+.resume-header__hero-name {
+  color: var(--color-primary);
+  font-size: 54px;
+  line-height: 120%;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.resume-header__hero-summary {
+  font-size: var(--title-text-size);
+  background-color: var(--color-primary-light);
+  padding: 12px;
+  border-radius: var(--base-border-radius);
+
+}
+
+.resume-header__hero-title {
+  font-size: var(--title-text-size);
+  line-height: 120%;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.resume-header__hero-description {
+  font-size: var(--base-text-size);
+  line-height: 120%;
+  color: var(--color-primary);
+}
