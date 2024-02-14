@@ -57,15 +57,15 @@
 }
 
 .resume-body__company-list li:before {
-  content: '- ';
+  content: "- ";
 }
 
 .resume-body__company-list li:after {
-  content: ';';
+  content: ";";
 }
 
 .resume-body__company-list li:last-child:after {
-  content: '.';
+  content: ".";
 }
 
 .resume-body__company-list li:not(:last-child) {
