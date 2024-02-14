@@ -15,7 +15,7 @@ body {
   padding: 18px;
   gap: 12px 24px;
   display: grid;
-  grid-template-columns: calc(25% - 12px) calc(75% - 12px);
+  grid-template-columns: calc(26% - 12px) calc(74% - 12px);
   /* align-items: start; */
   align-content: start;
 }
@@ -39,6 +39,10 @@ body {
 .resume-header__list-item {
   color: var(--color-primary);
   font-size: var(--base-text-size);
+}
+
+.resume-header__list-item b {
+  font-weight: 700;
 }
 
 .resume-header__list-item.occupation {
