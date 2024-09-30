@@ -51,13 +51,16 @@
 }
 
 .resume-body__company-list li {
-  padding-left: 12px;
   margin-bottom: 12px;
   font-size: var(--base-text-size);
+  padding-left: 16px;
+  position: relative;
 }
 
 .resume-body__company-list li:before {
   content: "- ";
+  position: absolute;
+  left: 6px;
 }
 
 .resume-body__company-list li:after {
