@@ -99,7 +99,7 @@
   border: 1px solid var(--color-primary);
   border-radius: var(--secondary-border-radius);
   font-size: var(--base-text-size);
-  padding: 4px 8px;
+  padding: 2px 6px;
   color: var(--color-primary);
   display: inline-block;
 }
@@ -111,4 +111,8 @@
   padding: 0;
   color: var(--color-primary);
   display: list-item;
+}
+
+.resume-body__feature-list-item b {
+  font-weight: 700;
 }
